@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c0220f97-aa9e-46d3-8131-205d299bd165" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/main/app/Main.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/docker-compose.yml" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/main/conn/ConnectionFactory.java" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/src/main/java/main/interfaces/Repository.java" root0="SKIP_INSPECTION" />
+  </component>
+  <component name="JavaAutoRunManager">
+    <enabled-run-configurations>
+      <run-configuration type="JUnit" name="ProductRepositoryTest.save" />
+    </enabled-run-configurations>
+  </component>
+  <component name="JvmLoggingSettingsStorage">
+    <option name="loggerId" value="Log4j2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2zKWq4s0zo07pwZp5bQldB3rEgx" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ConnectionFactory.executor": "Run",
+    "Application.Main.executor": "Run",
+    "JUnit.ConnectionFactoryTest.executor": "Run",
+    "JUnit.ProductRepositoryTest.save.executor": "Run",
+    "JUnit.ProductServiceTest.executor": "Run",
+    "JUnit.ProductServiceTest.save.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/mateus/cadastro-escola",
+    "onboarding.tips.debug.path": "/home/mateus/Projetos-java/inventory-system/src/main/java/main/Main.java",
+    "run.code.analysis.last.selected.profile": "pProject Default",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateBuilderDialog.RecentsKey">
+      <recent name="main.domain" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="main.service" />
+      <recent name="main.repository" />
+      <recent name="main.conn" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.app.Main" />
+      <module name="inventory-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConnectionFactoryTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inventory-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.conn.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.conn" />
+      <option name="MAIN_CLASS_NAME" value="main.conn.ConnectionFactoryTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductRepositoryTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inventory-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.repository.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.repository" />
+      <option name="MAIN_CLASS_NAME" value="main.repository.ProductRepositoryTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inventory-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.service" />
+      <option name="MAIN_CLASS_NAME" value="main.service.ProductServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProductServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="inventory-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="main.service" />
+      <option name="MAIN_CLASS_NAME" value="main.service.ProductServiceTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.ProductServiceTest" />
+        <item itemvalue="JUnit.ProductServiceTest.save" />
+        <item itemvalue="JUnit.ProductRepositoryTest.save" />
+        <item itemvalue="JUnit.ConnectionFactoryTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c0220f97-aa9e-46d3-8131-205d299bd165" name="Changes" comment="" />
+      <created>1751480449556</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1751480449556</updated>
+    </task>
+    <servers />
+  </component>
+</project>
