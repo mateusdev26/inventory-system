@@ -1,14 +1,14 @@
 # Inventory System - Quick Setup  
 
 A simple inventory management system with Docker and MySQL.  
-
+You need Docker 27.5.2 or Java 21
 ## Installation  
 
 ### Option 1: Using Docker (Recommended)  
 1. Pull and run the pre-configured image (includes MySQL):  
    ```bash
    docker pull mateusdev26/inventory-system:latest  
-   docker run -p 3306:3306 -e MYSQL_ROOT_PASSWORD=password -e MYSQL_DATABASE=inventory_db mateusdev26/inventory-system:latest
+   docker run -i mateusdev26/inventory-system:latest
    ```  
 
 ### Option 2: Manual Setup (Without Docker)  
