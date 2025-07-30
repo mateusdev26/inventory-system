@@ -10,7 +10,18 @@ import java.util.ArrayList;
 import java.util.List;
 @Log4j2
 public class ProductRepository implements Repository<Product> {
-
+    public int deleteAll(Number id){
+    int rowsAffected = 0 ;
+    String sql = "delete from products where id = ?";
+    try(Connection conn = ConnectionFactory.getConnection();
+     PreparedStatement pstmt = conn.prepareStatement(sql)){
+      pstmt.setInt(1,id.intValue());
+      rowsAffected = pstmt.executeUpdate();
+    }catch(SQLException e){
+    handleSQLException(e);
+    }
+    return rowsAffected ;
+}
     @Override
     public int save(Product product) {
         String sqlInsert = "INSERT INTO products (productname, price, madeDate, expirationDate, country, amount) VALUES (?, ?, ?, ?, ?, ?)";

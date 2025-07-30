@@ -94,6 +94,7 @@ public class Main {
         private static void findById(Scanner scanner) {
             clear();
             System.out.println("==============FindById============");
+            System.out.println("Type the id");
             long idToFind = scanner.nextLong();
             Product foundById = repository.findById(idToFind);
             if (foundById == null) {
@@ -125,7 +126,20 @@ public class Main {
                 System.out.println(repository.findById(id));
                 System.out.println("Y/n");
                 String option = scanner.next();
-                if (option.equals("Y") || option.equals("y")) {repository.delete(id);}
+                if (option.equals("Y") || option.equals("y")) {
+                System.out.println("Do you wanna to delete all?");
+                System.out.println("1. Delete all");
+                System.out.println("2. Delete Only one");
+                System.out.println("3. exit");
+                int op = scanner.nextInt();
+                if(op==1){
+                repository.deleteAll(id);
+                }else{
+                 if(op==2){
+                 repository.delete(id);
+               }
+               }
+               }
             }
         }
 
