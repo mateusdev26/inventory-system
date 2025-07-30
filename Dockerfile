@@ -1,13 +1,7 @@
-FROM eclipse-temurin:21-jdk as build
-ENV MAVEN_VERSION=3.6.3
-RUN wget https://archive.apache.org/dist/maven/maven-3/${MAVEN_VERSION}/binaries/apache-maven-${MAVEN_VERSION}-bin.tar.gz && \
-    tar -xzf apache-maven-${MAVEN_VERSION}-bin.tar.gz -C /opt && \
-    ln -s /opt/apache-maven-${MAVEN_VERSION} /opt/maven
-
+FROM eclipse-temurin:21 AS build
 WORKDIR /app
-COPY . .
-RUN /opt/maven/bin/mvn clean package -DskipTests
-
-FROM eclipse-temurin:21-jre
-COPY --from=build /app/target/*.jar app.jar
+COPY pom.xml .
+COPY src ./src
+COPY target/inventory-system-1.0-SNAPSHOT.jar app.jar
+EXPOSE 8080
 ENTRYPOINT ["java", "-jar", "app.jar"]
