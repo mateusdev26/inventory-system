@@ -1,7 +1,7 @@
 # Inventory System - Quick Setup  
 
 A simple inventory management system with Docker and MySQL.  
-You need Docker 27.5.2 or Java 21
+You need Docker 27.5.1 or Java 21.0.7
 ## Installation  
 
 ### Option 1: Using Docker (Recommended)  
@@ -16,7 +16,7 @@ You need Docker 27.5.2 or Java 21
    ```bash
    git clone https://github.com/mateusdev26/inventory-system.git  
    cd inventory-system  
-   java -jar target/inventory-system-1.0-SNAPSHOT.jar  
+   java -jar target/*.jar  
    ```  
    *Note: Requires MySQL server running locally with default credentials.*  
 
